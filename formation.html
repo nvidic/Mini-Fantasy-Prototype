@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Raleway text font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!-- My css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formation.css">
+    <title>Chelsea FC</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"> 
+                <img src="./img/logos/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Chelsea Football Club
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="players.html">Players <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="formation.html">Formation <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            
+            </div>
+        </nav> <!-- End Navbar -->
+
+        
+    
+        
+        <div class="landing container-fluid">
+            <div class="row">
+            <div class="dark-overlay">
+                <div class="landing-inner "> 
+                    <div class="row formation-pitch-selection">
+
+                        <div class="col-md-2 formation-col">
+                            <button type="button" class="btn btn-secondary btn-lg text-white font-weight-bold formation border border-primary mb-1 active " >4-3-3</button>
+                            <button type="button" class="btn btn-secondary btn-lg text-white font-weight-bold formation border border-primary mb-1">4-4-2</button>
+                            <button type="button" class="btn btn-secondary btn-lg text-white font-weight-bold formation border border-primary mb-1">4-5-1</button>
+                        </div>
+
+                        <div class="col-md-7 pitch ">
+                            <div class="pitch-overlay ">
+
+                                
+                                <div class="row forwards " >   
+
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()">                                 
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='AML'>AML</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()" >                                
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='ST'>ST</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()"  >                                
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='AMR'>AMR</div>
+                                    </div>    
+                                
+                                </div>
+                                    
+                                <div class="row midfielders">
+                                    
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()"> 
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='MCL'>MCL</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()">
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='MC'>MC</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()">
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='MCR'>MCR</div>
+                                    </div>    
+                                
+                                </div>
+                                
+                                <div class="row defenders " >
+                                    
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='DL'>DL</div>
+                                    </div>
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='DCL'>DCL</div>
+                                    </div>
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">   
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='DCR'>DCR</div> 
+                                    </div>                            
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='DR'>DR</div>
+                                    </div>  
+                                
+                                </div>                                   
+            
+                                    
+                                <div class="row goalkeeper" >     
+                                                     
+                                    <div class="col-sm-12  player-in-formation">
+                                        <img src="./img/kits/chelsea_22.png" alt=""  
+                                        class = 'img-kit gk' onclick="getGoalkeepersFromDB()" >                                
+                                        <div class="text-white position-or-picked-player font-weight-bold" id='GK'>GK</div>
+                                    </div>   
+                                                                  
+                                </div>
+                            
+
+                                <!---   4-4-2  
+                                
+                                <div class="row forwards " >   
+
+                                    <div class="col-sm-6  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()">                                 
+                                        <div class="text-white position-or-picked-player" id='STL'>STL</div>
+                                    </div>
+                                    <div class="col-sm-6  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()" >                                
+                                        <div class="text-white position-or-picked-player" id='STR'>STR</div>
+                                    </div>
+                                      
+                                
+                                </div>
+                                    
+                                <div class="row midfielders">
+
+                                    <div class="col-sm-3  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getMidfieldersFromDB()"  >                                
+                                        <div class="text-white position-or-picked-player" id='ML'>ML</div>
+                                    </div>  
+                                    <div class="col-sm-3  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()"> 
+                                        <div class="text-white position-or-picked-player" id='MCL'>MCL</div>
+                                    </div>
+                                    <div class="col-sm-3  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='MCR'>MCR</div>
+                                    </div>
+                                    <div class="col-sm-3  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='MR'>MR</div>
+                                    </div>    
+                                
+                                </div>
+                                
+                                <div class="row defenders " >
+                                    
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='DL'>DL</div>
+                                    </div>
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='DCL'>DCL</div>
+                                    </div>
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">   
+                                        <div class="text-white position-or-picked-player" id='DCR'>DCR</div> 
+                                    </div>                            
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='DR'>DR</div>
+                                    </div>  
+                                
+                                </div>                                   
+            
+                                    
+                                <div class="row goalkeeper" >                        
+                                    <div class="col-sm-12  player-in-formation">
+                                        <img src="./img/kits/chelsea_22.png" alt=""  
+                                        class = 'img-kit gk' onclick="getGoalkeepersFromDB()" >                                
+                                        <div class="text-white position-or-picked-player" id='GK'>GK</div>
+                                    </div>                                  
+                                </div>
+
+                            -->
+                                
+
+
+                                <!---   4-5-1
+                                
+                                <div class="row forwards " >   
+
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()">                                 
+                                        <div class="text-white position-or-picked-player" id='ST'>ST</div>
+                                    </div>      
+                                
+                                </div>
+
+                                <div class="row forwards " >   
+
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()">                                 
+                                        <div class="text-white position-or-picked-player" id='STL'>STL</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getForwardsFromDB()" >                                
+                                        <div class="text-white position-or-picked-player" id='STR'>STR</div>
+                                    </div>
+                                      
+                                
+                                </div>
+                                    
+                                <div class="row midfielders">
+
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt=""  
+                                        class = 'img-kit fw' onclick="getMidfieldersFromDB()"  >                                
+                                        <div class="text-white position-or-picked-player" id='ML'>ML</div>
+                                    </div>  
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()"> 
+                                        <div class="text-white position-or-picked-player" id='MCL'>MCL</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='MCR'>MCR</div>
+                                    </div>
+                                    <div class="col-sm-4  player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit mf' onclick="getMidfieldersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='MR'>MR</div>
+                                    </div>    
+                                
+                                </div>
+                                
+                                <div class="row defenders " >
+                                    
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='DL'>DL</div>
+                                    </div>
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='DCL'>DCL</div>
+                                    </div>
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">   
+                                        <div class="text-white position-or-picked-player" id='DCR'>DCR</div> 
+                                    </div>                            
+                                    <div class="col-sm-3 player-in-formation">
+                                        <img src="./img/kits/chelsea.png" alt="" 
+                                        class = 'img-kit df' onclick="getDefendersFromDB()">
+                                        <div class="text-white position-or-picked-player" id='DR'>DR</div>
+                                    </div>  
+                                
+                                </div>                                   
+            
+                                    
+                                <div class="row goalkeeper" >                        
+                                    <div class="col-sm-12  player-in-formation">
+                                        <img src="./img/kits/chelsea_22.png" alt=""  
+                                        class = 'img-kit gk' onclick="getGoalkeepersFromDB()" >                                
+                                        <div class="text-white position-or-picked-player" id='GK'>GK</div>
+                                    </div>                                  
+                                </div>
+
+                                
+                                -->
+                                
+                        
+                            </div> <!-- end pitch overlay -->                                                                         
+                        </div>   <!-- end pitch -->   
+
+                        <div class="col-md-3 selection-col">
+                            <p ><h4 class="text-info">Click on a kit to select a player.</h4></p>
+                        </div> <!-- end selection col --> 
+
+                    </div> <!-- end formation-pitch-selection -->    
+                                        
+                </div> <!-- end landing-inner -->
+            </div> <!-- end dark-overlay -->
+            </div>
+        </div> <!-- end landing -->
+        
+    
+
+
+    <script src="./build/frontend.bundle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+
+</body>
+</html>

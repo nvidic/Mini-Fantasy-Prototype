@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Kepa Arrizabalaga",
+        "dateOfBirth": "October 3, 1994",    
+        "birthplace": "Ondarroa, Spain",    
+        "height": "1.86m (6 ft 1 in)",
+        "weight": "85 kg",
+        "position": "Goalkeeper",
+        "number": "1",
+        "img": "./img/faces/kepa.png"
+    },
+    {
+        "name": "Willy Caballero",
+        "dateOfBirth": "September 28, 1981",    
+        "birthplace": "Santa Elena, Argentina",    
+        "height": "1.86m (6 ft 1 in)",
+        "weight": "81 kg",
+        "position": "Goalkeeper",
+        "number": "13",
+        "img": "./img/faces/caballero.png"
+    },
+    {
+        "name": "Jamie Cumming",
+        "dateOfBirth": "September 4, 1999",    
+        "birthplace": "Winchester, England",    
+        "height": "1.86m (6 ft 1 in)",
+        "weight": "79 kg",
+        "position": "Goalkeeper",
+        "number": "31",
+        "img": "./img/faces/cumming.png"
+    },
+    {
+        "name": "Antonio Rudiger",
+        "dateOfBirth": "March 3, 1993",    
+        "birthplace": "Berlin, Germany",    
+        "height": "1.90m (6 ft 3 in)",
+        "weight": "85 kg",
+        "position": "Defender",
+        "number": "2",
+        "img": "./img/faces/rudiger.png"
+    },
+    {
+        "name": "Marcos Alonso",
+        "dateOfBirth": "December 28, 1990",    
+        "birthplace": "Madrid, Spain",    
+        "height": "1.88m (6 ft 2 in)",
+        "weight": "87 kg",
+        "position": "Defender",
+        "number": "3",
+        "img": "./img/faces/marcos.png"
+    },
+    {
+        "name": "Andreas Christensen",
+        "dateOfBirth": "April 10, 1996",    
+        "birthplace": "Lillerød, Denmark",    
+        "height": "1.87m (6 ft 2 in)",
+        "weight": "81 kg",
+        "position": "Defender",
+        "number": "27",
+        "img": "./img/faces/christensen.png"
+    },
+    {
+        "name": "Cesar Azpilicueta",
+        "dateOfBirth": "August 28, 1989",    
+        "birthplace": "Pamplona, Spain",    
+        "height": "1.78m (5 ft 10 in)",
+        "weight": "76 kg",
+        "position": "Defender",
+        "number": "28",
+        "img": "./img/faces/azpilicueta.png"
+    },
+    {
+        "name": "Emerson Palmieri",
+        "dateOfBirth": "August 3, 1994",    
+        "birthplace": "Santos, Brazil",    
+        "height": "1.75m (5 ft 9 in)",
+        "weight": "77 kg",
+        "position": "Defender",
+        "number": "33",
+        "img": "./img/faces/emerson_palmieri.png"
+    },    
+    {
+        "name": "Kurt Zouma",
+        "dateOfBirth": "October 27, 1994",    
+        "birthplace": "Lyon, France",    
+        "height": "1.90m (6 ft 3 in)",
+        "weight": "96 kg",
+        "position": "Defender",
+        "number": "15",
+        "img": "./img/faces/zouma.png"
+    },
+    {
+        "name": "Reece James",
+        "dateOfBirth": "December 8, 1999",    
+        "birthplace": "London, England",    
+        "height": "1.82m (6 ft 0 in)",
+        "weight": "82 kg",
+        "position": "Defender",
+        "number": "24",
+        "img": "./img/faces/reece_james.png"
+    },
+    {
+        "name": "Fikayo Tomori",
+        "dateOfBirth": "December 19, 1997",    
+        "birthplace": "Calgary, Canada",    
+        "height": "1.85m (6 ft 1 in)",
+        "weight": "76.5 kg",
+        "position": "Defender",
+        "number": "29",
+        "img": "./img/faces/tomori.png"
+    },
+    {
+        "name": "Jorginho",
+        "dateOfBirth": "December 20, 1991",    
+        "birthplace": "Imbituba, Brazil",    
+        "height": "1.80m (5 ft 11 in)",
+        "weight": "67 kg",
+        "position": "Midfielder",
+        "number": "5",
+        "img": "./img/faces/jorginho.png"
+    },
+    {
+        "name": "N'Golo Kante",
+        "dateOfBirth": "March 29, 1991",    
+        "birthplace": "Paris, France",    
+        "height": "1.68m (5 ft 6 in)",
+        "weight": "71.5 kg",
+        "position": "Midfielder",
+        "number": "7",
+        "img": "./img/faces/kante.png"
+    },
+    {
+        "name": "Ross Barkley",
+        "dateOfBirth": "December 5, 1993",    
+        "birthplace": "Liverpool, England",    
+        "height": "1.85m (6 ft 1 in)",
+        "weight": "87 kg",
+        "position": "Midfielder",
+        "number": "8",
+        "img": "./img/faces/barkley.png"
+    },
+    {
+        "name": "Mateo Kovacic",
+        "dateOfBirth": "May 6, 1995",    
+        "birthplace": "Linz, Austria",    
+        "height": "1.76m (5 ft 9 in)",
+        "weight": "78 kg",
+        "position": "Midfielder",
+        "number": "17",
+        "img": "./img/faces/kovacic.png"
+    },    
+    {
+        "name": "Ruben Loftus-Cheek",
+        "dateOfBirth": "January 23, 1996",    
+        "birthplace": "London, England",    
+        "height": "1.91m (6 ft 3 in)",
+        "weight": "88 kg",
+        "position": "Midfielder",
+        "number": "12",
+        "img": "./img/faces/loftus_cheek.png"
+    },
+    {
+        "name": "Tiemoue Bakayoko",
+        "dateOfBirth": "August 17, 1994",    
+        "birthplace": "Paris, France",    
+        "height": "1.89m (6 ft 2 in)",
+        "weight": "85 kg",
+        "position": "Midfielder",
+        "number": "14",
+        "img": "./img/faces/bakayoko.png"
+    },
+    {
+        "name": "Marco van Ginkel",
+        "dateOfBirth": "December 1, 1992",    
+        "birthplace": "Amersfoort, Netherlands",    
+        "height": "1.86m (6 ft 1 in)",
+        "weight": "82 kg",
+        "position": "Midfielder",
+        "number": "",
+        "img": "./img/faces/ginkel.png"
+    },
+    {
+        "name": "Mason Mount",
+        "dateOfBirth": "January 10, 1999",    
+        "birthplace": "Portsmouth, England",    
+        "height": "1.78m (5 ft 10 in)",
+        "weight": "70 kg",
+        "position": "Midfielder",
+        "number": "19",
+        "img": "./img/faces/mount.png"
+    },
+    {
+        "name": "Pedro",
+        "dateOfBirth": "July 27, 1987",    
+        "birthplace": "Santa Cruz de Tenerife, Spain",    
+        "height": "1.69m (5 ft 7 in)",
+        "weight": "65 kg",
+        "position": "Forward",
+        "number": "11",
+        "img": "./img/faces/pedro.png"
+    },
+    {
+        "name": "Callum Hudson-Odoi",
+        "dateOfBirth": "November 7, 2000",    
+        "birthplace": "London, England",    
+        "height": "1.77m (5 ft 10 in)",
+        "weight": "74.5 kg",
+        "position": "Forward",
+        "number": "20",
+        "img": "./img/faces/hudson_odoi.png"
+    },
+    {
+        "name": "Olivier Giroud",
+        "dateOfBirth": "September 29, 1986",    
+        "birthplace": "Chambéry, France",    
+        "height": "1.93m (6 ft 4 in)",
+        "weight": "92 kg",
+        "position": "Forward",
+        "number": "18",
+        "img": "./img/faces/giroud.png"
+    },
+    {
+        "name": "Willian",
+        "dateOfBirth": "August 9, 1988",    
+        "birthplace": "Ribeirao Pires, Brazil",    
+        "height": "1.75m (5 ft 9 in)",
+        "weight": "77.5 kg",
+        "position": "Forward",
+        "number": "22",
+        "img": "./img/faces/willian.png"
+    },
+    {
+        "name": "Michy Batshuayi",
+        "dateOfBirth": "October 2, 1993",    
+        "birthplace": "Brussels, Belgium",    
+        "height": "1.85m (6 ft 1 in)",
+        "weight": "88 kg",
+        "position": "Forward",
+        "number": "23",
+        "img": "./img/faces/batshuayi.png"
+    },
+    {
+        "name": "Kenedy",
+        "dateOfBirth": "February 8, 1996",    
+        "birthplace": "Santa Rita do Sapucaí, Brazil",    
+        "height": "1.82m (6 ft 0 in)",
+        "weight": "84 kg",
+        "position": "Forward",
+        "number": "16",
+        "img": "./img/faces/kenedy.png"
+    },
+    {
+        "name": "Christian Pulisic",
+        "dateOfBirth": "September 18, 1998",    
+        "birthplace": "Hershey, Pennsylvania, United States",    
+        "height": "1.73m (5 ft 8 in)",
+        "weight": "63 kg",
+        "position": "Forward",
+        "number": "22",
+        "img": "./img/faces/pulisic.png"
+    },
+    {
+        "name": "Tammy Abraham",
+        "dateOfBirth": "October 2, 1997",    
+        "birthplace": "London, England",    
+        "height": "1.91m (6 ft 3 in)",
+        "weight": "87 kg",
+        "position": "Forward",
+        "number": "9",
+        "img": "./img/faces/abraham.png"
+    }
+]

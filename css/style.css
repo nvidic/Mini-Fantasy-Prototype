@@ -1,0 +1,120 @@
+/* Navbar */
+.navbar {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex; /* hocu da sve stavke navbara budu u jednom redu cak i kad se malo smanji velicina prozora */
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    padding:0.7rem 2rem;
+    position:fixed;
+    z-index:99;
+    width:100%;
+    top:0;
+    border-bottom:solid 1px #428bca;
+    opacity:0.9;
+    
+}
+.navbar ul {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex}
+.navbar a {
+    color:#fff;
+    padding:0.45rem;
+    margin:0 0.25rem
+}
+.navbar a:hover {
+    color:#02282ed5
+}
+/*
+.container {
+    position:relative;
+    background:url("../img/stadium/stadium.jpg") no-repeat center center/cover;
+    height:100vh;
+    width: 100vw;
+}*/
+
+/* Landing */
+.landing {
+    position:relative;
+    background:url("../img/stadium/stadium.jpg") no-repeat center center/cover;
+    height:100vh;
+    width: 100vw;
+}
+.landing-inner {
+    color:#fff;
+    height:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    width:80%;
+    margin:auto;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    text-align:center
+    
+}
+
+/* Dark Overlay */
+.dark-overlay {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.65)
+}
+
+
+.list-group-item-dark {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+}
+
+.row {
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    /*border: 1px solid cyan;*/
+    /*width: 99%;*/
+
+}
+
+/* Cursor */
+.txt-type > .txt {
+    border-right: 0.1rem solid #fff;/* #428bca; *//* #777; */
+}
+
+/*
+@media(min-width: 1200px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+}
+
+@media(max-width: 800px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 500px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+*/

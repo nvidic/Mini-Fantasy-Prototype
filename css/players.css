@@ -1,0 +1,36 @@
+.players {
+    color:#fff;
+    /*
+    margin-top: 6rem;
+    border: 1px solid orangered;
+    */
+    
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+
+    padding-top: 7rem;
+
+}
+
+.playerCol {
+    background-color:rgba(0,0,0,0.7);
+    border: 0.5px solid #777;
+    margin-bottom: 0.15rem;
+
+    transition: transform 0.8s; /* Animation */
+
+    padding-left: 1.5rem;
+}
+
+.playerCol:hover {
+    /*-ms-transform: scale(1.05); /* IE 9 */
+   /* -webkit-transform: scale(1.05); /* Safari 3-8 */
+   /* transform: scale(1.05); */
+
+    background-color:rgba(66,139,202,0.9);
+    z-index: 1;
+    
+    /*padding-left: 3.5rem;*/
+
+}
